@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Snake</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <script>
+        var table = ""
+        for (var y=0; y<30; y++) {
+            var tr = ""
+            for (var x=0; x<30; x++){
+                tr += "<td></td>"  
+            }
+            table += '<tr>'+tr+'</tr>'
+        }
+        document.body.innerHTML += '<table id=tbl>'+table+'</table>'
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

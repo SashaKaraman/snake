@@ -1,0 +1,15 @@
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+td {
+    width: 6px;
+    height: 6px;
+    border: 1px solid #bbb;
+}
+.snake {
+    background: lawngreen;
+}
+.food {
+    background: coral;
+}
